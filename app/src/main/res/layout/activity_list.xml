@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListActivity"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:dividerHeight="1dp"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:id="@+id/first_entry"
+        android:importantForAutofill="no"
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:inputType="text"
+        android:hint="@string/info_first_text"/>
+
+    <EditText
+        android:id="@+id/second_entry"
+        android:importantForAutofill="no"
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:inputType="text"
+        android:hint="@string/info_second_text"/>
+
+    <Button android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/connectbutton"
+        android:text="@string/list_button_connect" />
+
+    <Button android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/testbutton"
+        android:text="@string/list_button_back"
+        android:onClick="buttonBack"/>
+</LinearLayout>

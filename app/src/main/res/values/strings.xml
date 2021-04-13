@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Dyktafon1.1</string>
+    <string name="name_entry_text">Imię</string>
+    <string name="surname_entry_text">Nazwisko</string>
+    <string name="title_entry_text">Tytuł</string>
+    <string name="info_entry_text">Opis</string>
+    <string name="button_start_text">START</string>
+    <string name="button_stop_text">STOP</string>
+    <string name="button_save_text">ZAPISZ</string>
+    <string name="button_delete_text">SKASUJ</string>
+    <string name="button_list_text">LISTA</string>
+    <string name="info_first_text">Nazwa pierwszego pliku</string>
+    <string name="info_second_text">Nazwa drugiego pliku</string>
+    <string name="list_button_connect">Połącz pliki</string>
+    <string name="list_button_back">Powrót</string>
+</resources>
